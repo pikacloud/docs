@@ -1,1 +1,29 @@
-site_name: My Docs
+site_name: Pikacloud documentation
+theme: readthedocs
+pages:
+- 'About':
+    - 'About Pikacloud': 'index.md'
+    - 'Your own cloud agnostic services': 'about/own-cloud-service.md'
+    - 'API and tools': 'about/api-and-tools.md'
+    - 'Join the Pikacloud Community': 'about/community.md'
+- 'Requirements':
+    - 'Have a working project': 'requirements/index.md'
+    - 'Create your Pikacloud account': 'requirements/create-account.md'
+    - 'Have a  working application': 'requirements/working-project.md'
+- 'Domain Name Services':
+    - 'Your domain name': 'dns/index.md'
+    - 'Host your domain on Pikacloud': 'dns/host-on-pikacloud.md'
+    - 'Migrate your domain': 'dns/migrate-your-domain.md'
+    - 'Play with the DNS API': 'dns/play-with-api.md'
+- 'Load Balancers':
+    - 'Load-balance your app': 'lb/index.md'
+    - 'Create your LB': 'lb/create.md'
+    - 'Add your web servers': 'lb/add-backend.md'
+    - 'Test your LB': 'lb/test.md'
+    - 'Activate your domain': 'lb/activate.md'
+    - 'Play with the Load Balancing API': 'lb/play-with-api.md'
+- 'SSL':
+    - 'Secure your app with HTTPS': 'ssl/index.md'
+    - 'Activate SSL': 'ssl/activate-https.md'
+    - 'Renewal and alerting': 'ssl/renewal-alerting.md'
+    - 'Play with the SSL API': 'ssl/play-with-api.md'
