@@ -1,9 +1,11 @@
 site_name: Pikacloud documentation
 theme: readthedocs
+google_analytics: ['UA-846356-13', 'pikacloud.com']
+repo_url: https://github.com/pikacloud/docs
+site_description: 'Pikacloud documentation'
 pages:
-- 'About':
-    - 'About Pikacloud': 'index.md'
-    - 'Your own cloud agnostic services': 'about/own-cloud-service.md'
+- 'About Pikacloud':
+    - 'Your own cloud agnostic services': 'index.md'
     - 'API and tools': 'about/api-and-tools.md'
     - 'Join the Pikacloud Community': 'about/community.md'
 - 'Requirements':
