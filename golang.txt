@@ -1,0 +1,5 @@
+build tag:
+
+// +build linux
+
+lister les fichiers qui seront build : go list -f '{{.GoFiles}}' 
